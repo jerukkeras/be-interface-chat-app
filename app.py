@@ -2,7 +2,7 @@ from flask import Flask
 from flask_socketio import SocketIO, join_room
 
 app = Flask(__name__)
-socketio = SocketIO(app)
+socketio = SocketIO(app, cors_allowed_origins="*")
 
 
 @app.route('/')
