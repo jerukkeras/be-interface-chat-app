@@ -6,6 +6,6 @@ gunicorn==20.1.0
 python-socketio==5.4.0
 python-engineio==4.2.0
 
-supabase~=2.5.1
-google-generativeai~=0.0.1
-socketio-client~=1.2.2
+supabase
+google-generativeai
+socketio-client
